@@ -14,7 +14,7 @@ class iOSDemoTests: XCTestCase {
     func testProductOfTwoNumbers() {
        let vc = ViewController()
        let product = vc.multiplicationOfTwoNumbers(num1: 2, num2: 3)
-       XCTAssertEqual(product, 6, "product should be 6")
+       XCTAssertEqual(product, 6, "product will be 6")
     }
 
     override func setUpWithError() throws {
